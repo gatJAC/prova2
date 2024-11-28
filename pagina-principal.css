@@ -1,0 +1,16 @@
+body{
+    background-image:url(suplementos/levrone.webp);
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+#bt{
+    text-align: right;
+    border-radius: 6px;
+    background-color: white;
+    padding: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.dv{
+    text-align: right;
+    }
