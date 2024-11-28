@@ -12,15 +12,29 @@ header{
             padding: 20px;
             text-align: center;
         }
-        #bt{
+        #header_link{
             text-align: right;
             border-radius: 6px;
             background-color: white;
             padding: 10px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
         }
-        .dv{
-            text-align: right;
+        .header_links{ 
+            float: right;
+        }
+        #link-2{
+            border-radius: 6px;
+            background-color: white;
+            padding: 15px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        #links{
+            border-radius: 6px;
+            background-color: white;
+            padding: 15px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            gap: 10px;
         }
 .modBox{
 	width: 290px;
@@ -180,147 +194,139 @@ header{
                         }
                     }
                     
- @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
 
-:root {
---color-neutral-0: #000000fd;
---color-neutral-10:#171717;
---color-neutral-30:#a8a29e;
---color-neutral-40:#f5f5f5;
-
-}
-
-*{
-    font-family: 'inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    letter-spacing: 1px;
-}
-main {
-    height: 80vh;
-}
-
-footer {
-    width: 100%;
-    color: var(--color-neutral-40);
-    
-}
-
-.footer-link {
-    text-decoration: dashed;
-
-}
-
-
-#footer_content {
-    background-color: var(--color-neutral-0);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 3rem 3.5rem;
-    width: 100%; 
-}
-#footer_contacts h1 {
-    margin-bottom: 0.75rem;
-}
-
-#footer_social_media {
-    display: flex;
-    gap: 2rem;
-    margin-top: 1.5rem;
-}
-#footer_social_media .footer-link{
-    height: 2.5rem;
-    width: 2.5rem;
-    color: var(--color-neutral-40);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.4s;
-    background-color: #3861b3;
-    font-size: 1.5rem;
-}
-
-#footer_social_media .footer-link i {
-    font-size: 1.25rem ;
-}
-#footer_social_media .footer-link:hover {
-    opacity: 0.8;
-}
-
-
-#instagram{
-    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
-
-}
-
-#facbook {
-    background-color: #3861b3;
-}
-
-.footer-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    list-style: none;
-}
-
-.footer-list .footer-link{
-    color: var(--color-neutral-30);
-    transition: all 0.4s;
-
-}
-.footer-list .footer-link:hover{
-    color: #7f37c9;
-}
-#footer_subscribe{
-    display: flex;
-    flex-direction: column;
-    gap:1.5rem;
-}
-#footer_subscripe p{
-    color: var(--color-neutral-30);
-}
-#input_group {
-    display: flex;
-    align-items: stretch;
-    background-color: var(--color-neutral-10);
-    border-radius: 5%;
-    overflow: hidden;
-    border-radius: 30px;
-}
-#input_group input {
-    all: unset;
-    padding: 0.75rem;
-    width: 100%;
-}
-#input_group button {
-    background-color: #605e5e;
-    border: none;
-    color: var(--color-neutral-40);
-    padding: 0px 1.25rem;
-    font-size: 1.125rem;
-    height: 100%;
-    border-radius: 0px 4px 4px 0px;
-    cursor: pointer;
-   
-    
-    
-}
-#footer_copyright{
-    display: flex;
-    justify-content: center;
-    background-color: var(--color-neutral-10);
-    font-size: 0.9rem;
-    padding: 1.5rem;
-    font-weight: 100;
-}
-
-#footer_logo {
-    width: 300px; /* Ajuste o tamanho conforme necessário */
-    height: auto;
-    margin-bottom: 0.75rem; /* Espaçamento abaixo da imagem */
-}
-
+                    :root {
+                    --color-neutral-0: #000000fd;
+                    --color-neutral-10:#171717;
+                    --color-neutral-30:#a8a29e;
+                    --color-neutral-40:#f5f5f5;
+                    
+                    }
+                    
+                    *{
+                        font-family: 'inter', sans-serif;
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                        letter-spacing: 1px;
+                    }
+                    main {
+                        height: 80vh;
+                    }
+                    
+                    footer {
+                        width: 100%;
+                        color: var(--color-neutral-40);
+                        
+                    }
+                    
+                    .footer-link {
+                        text-decoration: dashed;
+                    
+                    }
+                    
+                    
+                    #footer_content {
+                        background-color: var(--color-neutral-0);
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        padding: 3rem 3.5rem;
+                        width: 100%; 
+                    }
+                    #footer_contacts h1 {
+                        margin-bottom: 0.75rem;
+                    }
+                    
+                    #footer_social_media {
+                        display: flex;
+                        gap: 2rem;
+                        margin-top: 1.5rem;
+                    }
+                    #footer_social_media .footer-link{
+                        height: 2.5rem;
+                        width: 2.5rem;
+                        color: var(--color-neutral-40);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        transition: all 0.4s;
+                        background-color: #3861b3;
+                        font-size: 1.5rem;
+                    }
+                    
+                    #footer_social_media .footer-link i {
+                        font-size: 1.25rem ;
+                    }
+                    #footer_social_media .footer-link:hover {
+                        opacity: 0.8;
+                    }
+                    
+                    
+                    .footer-list {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 0.75rem;
+                        list-style: none;
+                    
+                    }
+                    
+                    .footer-list .footer-link{
+                        color: var(--color-neutral-30);
+                        transition: all 0.4s;
+                    
+                    }
+                    .footer-list .footer-link:hover{
+                        color: #7f37c9;
+                    }
+                    #footer_subscribe{
+                        display: flex;
+                        flex-direction: column;
+                        gap:1.5rem;
+                    }
+                    #footer_subscripe p{
+                        color: var(--color-neutral-40);
+                    }
+                    #input_group {
+                        display: flex;
+                        align-items: stretch;
+                        background-color: var(--color-neutral-10);
+                        border-radius: 5%;
+                        overflow: hidden;
+                        border-radius: 30px;
+                    }
+                    #input_group input {
+                        all: unset;
+                        padding: 0.75rem;
+                        width: 100%;
+                    }
+                    #input_group button {
+                        background-color: #605e5e;
+                        border: none;
+                        color: var(--color-neutral-40);
+                        padding: 0px 1.25rem;
+                        font-size: 1.125rem;
+                        height: 100%;
+                        border-radius: 0px 4px 4px 0px;
+                        cursor: pointer;
+                       
+                        
+                        
+                    }
+                    #footer_copyright{
+                        display: flex;
+                        justify-content: center;
+                        background-color: var(--color-neutral-10);
+                        font-size: 0.9rem;
+                        padding: 1.5rem;
+                        font-weight: 100;
+                    }
+                    
+                    #footer_logo {
+                        width: 300px; /* Ajuste o tamanho conforme necessário */
+                        height: auto;
+                        margin-bottom: 0.75rem; /* Espaçamento abaixo da imagem */
+                    }
+                    
