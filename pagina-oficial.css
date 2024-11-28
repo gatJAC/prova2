@@ -49,7 +49,7 @@ header{
     text-align: center;
 	}
 	.modBox:hover{
-    color:  transparent;
+    color:  black;
 	background-color:  transparent;
 	transform: scaleX(1.25) scaleY(1.25);
 	background-size: cover;
@@ -81,7 +81,7 @@ header{
         text-align: center;
         }
         .modBox:hover{
-        color: transparent;
+        color: black;
         background-color:  transparent;
         transform: scaleX(1.25) scaleY(1.25);
         background-size: cover;
@@ -113,7 +113,7 @@ header{
             text-align: center;
             }
             .modBox:hover{
-            color: transparent;
+            color: black;
             background-color:  transparent;
             transform: scaleX(1.25) scaleY(1.25);
             background-size: cover;
@@ -145,7 +145,7 @@ header{
                 text-align: center;
                 }
                 .modBox:hover{
-                color: transparent;
+                color: black;
                 background-color:  transparent;
                 transform: scaleX(1.25) scaleY(1.25);
                 background-size: cover;
@@ -176,7 +176,7 @@ header{
                     text-align: center;
                     }
                     .modBox:hover{
-                    color:  transparent;
+                    color:  black;
                     background-color:  transparent;
                     transform: scaleX(1.25) scaleY(1.25);
                     background-size: cover;
