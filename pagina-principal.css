@@ -1,16 +1,30 @@
 body{
-    background-image:url(suplementos/levrone.webp);
-    background-repeat: no-repeat;
-    background-color: rgb(255, 255, 255);
+    background-color: darkgrey;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+        text-align: center  }
+
+        .header_img{
+            background-color: rgb(0, 0, 0);
+            padding: 20px;
+            text-align: center;
+        }
+ h1{
+    color: yellow;
+    text-align: center;
+ }
+.frango{
+    color: yellow;
     text-align: center;
 }
-#bt{
-    text-align: right;
-    border-radius: 6px;
-    background-color: white;
-    padding: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+div{
+    text-align: center;
 }
-.dv{
-    text-align: right;
-    }
+button{
+    background-color: green;
+    color: gold;
+    width: 20%;
+    font-size: 20px;
+}
